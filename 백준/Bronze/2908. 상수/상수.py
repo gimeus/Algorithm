@@ -1,6 +1,6 @@
-num1, num2 = input().split()
+a, b = input().split()
 
-reversed_num1 = int(num1[::-1])
-reversed_num2 = int(num2[::-1])
+reversed_a = int(a[::-1])
+reversed_b = int(b[::-1])
 
-print(max(reversed_num1, reversed_num2))
+print(max(reversed_a, reversed_b))
