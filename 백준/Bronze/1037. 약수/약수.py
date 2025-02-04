@@ -1,5 +1,3 @@
-n = int(input()) 
-divisors = list(map(int, input().split())) 
-original_number = min(divisors) * max(divisors)
-
-print(original_number)
+n = int(input())
+divs = list(map(int, input().split()))
+print(min(divs) * max(divs))
